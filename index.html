@@ -5,86 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULATOR</title>
-    <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div class="center-container">
-        <div class="output">
+        <div>
             <form action="#">
-                <input type="text" disabled>
-                <p>hola este es un cambio</p>
+                <input type="text" placeholder="0" id="output" disabled >
             </form>
             <div class="row">
                 <div class="col col-3">
-                    <button class="btn-red" id="btn-borrar">AC</button>
+                    <button class="btn-red" id="btn_one">AC</button>
                 </div>
                 <div class="col col-3">
-                    <button class="btn-red" id="btn-borrar-todo">C</button>
+                    <button class="btn-red" id="btn_all">C</button>
                 </div>
                 <div class="col col-3">
-                    <button class="btn-blue">X</button>
+                    <button class="btn-blue" id="multiply">X</button>
                 </div>
                 <div class="col col-3">
-                    <button class="btn-blue">÷</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-3">
-                    <button class="btn-white">7</button>
-                </div>
-                <div class="col col-3">
-                    <button class="btn-white">8</button>
-                </div>
-                <div class="col col-3">
-                    <button class="btn-white" id="number">9</button>
-                </div>
-                <div class="col col-3">
-                    <button class="btn-blue">-</button>
+                    <button class="btn-blue" id="division">÷</button>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-3">
-                    <button class="btn-white">4</button>
+                    <button class="btn-white" id="number7">7</button>
                 </div>
                 <div class="col col-3">
-                    <button class="btn-white">5</button>
+                    <button class="btn-white" id="number8">8</button>
                 </div>
                 <div class="col col-3">
-                    <button class="btn-white">6</button>
+                    <button class="btn-white" id="number9">9</button>
                 </div>
                 <div class="col col-3">
-                    <button class="btn-blue">+</button>
+                    <button class="btn-blue" id="subtract">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-3">
+                    <button class="btn-white" id="number4">4</button>
+                </div>
+                <div class="col col-3">
+                    <button class="btn-white" id="number5">5</button>
+                </div>
+                <div class="col col-3">
+                    <button class="btn-white" id="number6">6</button>
+                </div>
+                <div class="col col-3">
+                    <button class="btn-blue" id="plus">+</button>
                 </div>
             </div>
             <div class="row">
                 <div class="col-9">
                     <div class="row">
                         <div class="col col-4">
-                            <button class="btn-white">1</button>
+                            <button class="btn-white" id="number1">1</button>
                         </div>
                         <div class="col col-4">
-                            <button class="btn-white">2</button>
+                            <button class="btn-white" id="number2">2</button>
                         </div>
                         <div class="col col-4">
-                            <button class="btn-white">3</button>
+                            <button class="btn-white" id="number3">3</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col col-4">
-                            <button class="btn-white-bg"></button>
+                            <button class="btn-white-bg" id="default"></button>
                         </div>
                         <div class="col col-4">
-                            <button class="btn-white">0</button>
+                            <button class="btn-white" id="number0">0</button>
                         </div>
                         <div class="col col-4">
-                            <button class="btn-white-bg">.</button>
+                            <button class="btn-white-bg" id="point">.</button>
                         </div>
                     </div>
                 </div>
                 <div class="col ">
-                    <button class="btn-yellow">=</button>
+                    <button class="btn-yellow" id="equal">=</button>
                 </div>
             </div>
         </div>

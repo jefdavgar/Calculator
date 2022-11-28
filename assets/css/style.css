@@ -1,3 +1,4 @@
+
 *{
     padding: 0px;
     margin: 0px;
@@ -25,12 +26,13 @@ input{
     border: 5px solid #FF004D;
 }
 input:disabled{
-    background-color: #ffffff;
+    background-color: white;
 }
 .col{
     text-align: center;
 }
 .btn-red{
+    background-color: #370A64;
     margin-top: 20px;
     width: 57px;
     height: 67px;
@@ -40,6 +42,7 @@ input:disabled{
     color: white;
 }
 .btn-blue{
+    background-color: #370A64;
     margin-top: 20px;
     width: 57px;
     height: 67px;
@@ -49,6 +52,7 @@ input:disabled{
     color: white;
 }
 .btn-white{
+    background-color: #370A64;
     margin-top: 20px;
     width: 57px;
     height: 67px;
@@ -58,6 +62,7 @@ input:disabled{
     color: white;
 }
 .btn-white-bg{
+    background-color: #370A64;
     margin-top: 20px;
     width: 57px;
     height: 67px;
@@ -68,6 +73,7 @@ input:disabled{
     color: black;
 }
 .btn-yellow{
+    background-color: #370A64;
     margin-top: 20px;
     width: 57px;
     height: 169px;
